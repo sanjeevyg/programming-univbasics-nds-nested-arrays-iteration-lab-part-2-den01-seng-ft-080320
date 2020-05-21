@@ -9,8 +9,6 @@ def find_min_in_nested_arrays(src)
       first_element = src[count][0]
       if first_element > src[count][inner_count]
         first_element = src[count][inner_count]
-      else
-        first_element
       end
     inner_count += 1
     end
